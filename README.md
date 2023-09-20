@@ -1,6 +1,6 @@
 # JavaScript From Zero to Expert Repository
 
-This GitHub repository, "JavaScript_From_Zero_to_Expert," serves as a storage space for the JavaScript projects and code I've created during your JavaScript course. This repository is a valuable resource to track your progress and showcase My skills.
+This GitHub repository, "JavaScript_From_Zero_to_Expert," serves as a storage space for the JavaScript projects and code I've created during your JavaScript course. This repository is a valuable resource to track my progress and showcase My skills.
 
 ## Repository Contents
 

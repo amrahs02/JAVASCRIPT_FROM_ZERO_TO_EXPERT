@@ -1,0 +1,77 @@
+javascript code --> parsing --> compiling --> execution 
+
+compile code swap with more optimised compiled code and then executed ( it is due to increase the speed of execution ) see video (bts of javascript) 
+
+WEB API's
+ these are functionalities provided to the engine but are not a part of javascript language , accessibel on window object, but web api are part of javascritp runtime 
+
+ JAVASCRIPT RUNTIME --- EXAMPLE IS BROWSER
+ LET JAVASCRIPT RNTIME IS A BIG BOX THAT REQUIRE IN ORDER TO USE A JAVASCFIPT (LIKE BROWSER)
+
+
+CALLBACK QUEUE --
+ this is a data structure that store all the callback functions that are ready to be executed 
+
+ EVENT LOOP --
+  EVENT LOOP TAKES CALLBACK FUNTIONS FROM CALLBACK QUEUE AND PUTS THEM IN CALL STACK 
+
+ JAVASCRIPT RUNTIME --- JAVASCRIPT ENGINE + WEB APIs + CALLBACK QUEUE
+
+
+
+ NODEJS --- JS ENGINE + CALLBACK QUEUE 
+ NODEJS DONOT HAVE WEB API
+
+
+
+ VIDEO 2
+ EXECUTION CONTENXTS is an abstract concept
+
+
+ what's inside (each) execution CONTENXTS
+ 1. variable environment
+ 2. scope chain
+ 3. this keyword
+
+ VIDEO 3
+ scope and scope chain
+ scoping -- how our program variable are organised and accessed . 
+
+ scope --- scope or env in which a certain variable is declared . there is global scope , funcion scope , and block scope
+
+ TYPES OF SCOPE
+ 1. global
+ 2. FUNCTION( LOCAL)  // IF ACCESS OUTSIDE FUNTION IT GIVES REFERENCE ERROR
+ 3. BLOCK () // COME IN ES6 // ONLY APPLIES TO LET AND CONST 
+
+
+
+
+ VIDEO -- scoping 
+ name is a special variable name that can not be used 
+
+ varible created with "var" keyword have funtion scoped , and does not have block scoope (it means if we create a varible 
+
+
+funtion PrintAge(){
+
+ if(birthYear> 18){
+    var  flag = true;
+ }
+ console.log(flag);//accesile
+}
+
+
+  then it it accesible outside the if block( only accesible in function))
+
+
+  2. functions are block scoped they are not accesible outside thier block 
+
+
+  3. if we initialise same variable in global scope and local scope then javascript tries to find the variable in current scope and if the variable is find then it return that 
+
+
+  VIDEOS = HOISTING IN JS
+  ---- VARIABLE ENVIRONMENT----- 
+  HOISTING -- MAKES SOME TYPES OF VARIABLE ACCESSIBLE/ USABLE   IN CODE BEFORE THEY ARE ACTULALY DECLARED --- OR SIMPLE varibles lifted to the top of their scope
+  
